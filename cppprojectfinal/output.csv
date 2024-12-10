@@ -1,0 +1,56 @@
+ID,Name,GPA,Major
+1000,'Jay Chou',4.350000,'Microelectronics'
+1001,'Taylor Swift',5.270000,'Data Science'
+1002,'Bob Dylan',6.365000,'Financial Technology'
+1003,'David Green',7.920001,'Civil Engineering'
+1004,'Hatsune Miku',5.760000,'Vocaloid'
+1005,'litterzy',0.950000,'Cakewalk Producer'
+---
+StudentID,Course
+1000,'Microelectronics'
+1001,'Data Science'
+1001,'Machine Learning'
+1002,'Financial technology'
+1003,'Mapping Engineering'
+1004,'Unknown Mother Goose'
+1004,'Melt'
+1004,'ODDS&ENDS'
+---
+Name,height,weight
+'Hatsune Miku',158,42.0
+'litterzy',180.600006,65.000000
+---
+student.Major,healthData.height
+'Vocaloid',158
+'Cakewalk Producer',180.600006
+---
+student.Major,healthData.height
+'Vocaloid',158
+---
+student.Name,enrollment.Course
+'Jay Chou','Microelectronics'
+'Taylor Swift','Data Science'
+'Taylor Swift','Machine Learning'
+'Bob Dylan','Financial technology'
+'David Green','Mapping Engineering'
+'Hatsune Miku','Unknown Mother Goose'
+'Hatsune Miku','Melt'
+'Hatsune Miku','ODDS&ENDS'
+---
+ID,Name,GPA
+1000,'Jay Chou',4.350000
+1001,'Taylor Swift',5.270000
+1002,'Bob Dylan',6.365000
+1003,'David Green',7.920001
+1004,'Hatsune Miku',5.760000
+---
+Name
+'Bob Dylan'
+'litterzy'
+---
+ID,Name,GPA,Major
+1000,'Jay Chou',4.350000,'Microelectronics'
+1001,'Taylor Swift',5.270000,'Data Science'
+1002,'Bob Dylan',6.365000,'Financial Technology'
+1003,'David Green',7.920001,'Civil Engineering'
+1004,'Hatsune Miku',5.760000,'Vocaloid'
