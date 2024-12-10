@@ -1,4 +1,3 @@
-```markdown
 # MiniDB - Simple Database Management System
 
 ## Project Introduction
